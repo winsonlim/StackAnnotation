@@ -20,6 +20,7 @@ import java.util.Vector;
 public class MyStringStack {
     private Vector<String> v = new Vector<String> ();
     public void push (String newElement) {
+    	// This line is commented to fail the test cases purposely
 //        if (newElement != null) v.add (newElement);
     }
 
